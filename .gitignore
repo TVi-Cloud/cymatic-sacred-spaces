@@ -1,0 +1,23 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+
+# Ignore build files
+/build
+/dist
+/node_modules
+/venv
+/__pycache__
+
+# Ignore Unity/Unreal Engine files (if used)
+/Library/
+/Temp/
+/Builds/
+/Binaries/
+/Intermediate/
+
+# Ignore secret keys (future-proofing)
+.env
+*.key
